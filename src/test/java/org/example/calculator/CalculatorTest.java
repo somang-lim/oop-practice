@@ -21,7 +21,7 @@ public class CalculatorTest {
 
 	// 1 + 2 ----> Calculator
 	//   3   <----
-	@DisplayName("덧셈 연산을 수행한다.")
+	@DisplayName("사칙 연산을 수행한다.")
 	@ParameterizedTest
 	@MethodSource("formulaAndResult")
 	void additionTest(int operand1, String operator, int operand2, int result) {
