@@ -1,9 +1,9 @@
 package org.example.grade;
 
 public class Course {
-	private static String subject; // 과목명
-	private static int credit; // 학점
-	private static String grade; // 성적 (A+, A, B+ ...)
+	private final String subject; // 과목명
+	private final int credit; // 학점
+	private final String grade; // 성적 (A+, A, B+ ...)
 
 	public Course(String subject, int credit, String grade) {
 		this.subject = subject;
